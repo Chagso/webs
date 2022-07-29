@@ -1,0 +1,59 @@
+div {
+    display: inline-block;
+    margin-right: 60px;
+    color: rgb(255, 166, 0);
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    padding-left: 50px;
+    margin: auto;
+    height: 100px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+footer {
+    background-color: black;
+}
+
+a {
+    color: rgb(255, 166, 0);
+    text-decoration-line: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+a:active {
+    text-decoration-line: none;
+}
+
+header div.logo {
+    display: inline-block, flex;
+}
+
+header div.logo a {
+    background-image: url("img/bread.png");
+    background-color: red;
+    background-size: 200px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    text-indent: 99999999px;
+    
+}
